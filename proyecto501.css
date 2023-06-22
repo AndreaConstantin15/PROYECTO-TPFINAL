@@ -1,0 +1,22 @@
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo {
+    color: rgb(162, 74, 100);
+    font-size: 20px;
+}
+
+.img {
+    height: 360px;
+}
+
+.form-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descripcion {
+    color: rgb(0, 255, 89);
+}
