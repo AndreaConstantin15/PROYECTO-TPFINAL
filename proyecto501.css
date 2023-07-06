@@ -7,9 +7,62 @@
     color: rgb(162, 74, 100);
     font-size: 20px;
 }
+.nueva {
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+tbody {
+    border-width: 2px;
+    border-radius: 10px;
+    color: grey;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.pendiente {
+    color: chocolate;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.completada {
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.custom-select {
+    width: 300px;
+}
 
 .img {
     height: 360px;
+}
+
+.crear-tarea-boton{
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+    margin-top:10px;
+    color:white;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .form-title {
@@ -19,4 +72,10 @@
 
 .descripcion {
     color: rgb(0, 255, 89);
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
